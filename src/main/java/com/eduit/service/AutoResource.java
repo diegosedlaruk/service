@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AutoResource {
 
+    //cambios
     @GetMapping(path = "basicInfo", produces = "application/json")
     public AutoResponse getBasicInfo(){
         return new AutoResponse("emma","sedlaruk",2);
